@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dbd0c4;
+    
+    
+}
+
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff9149;
+    padding: 8px 8%;
+    box-shadow: 1px 3px 20px black;
+
+}
+.navmain img{
+    width: 30px;
+}
+.navtwo ul{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+.navtwo ul li {
+    display: inline-block;
+    margin-right:20px;
+   
+    
+}
+.navtwo ul li a{
+    text-decoration: none;
+   color: black;
+}
+.navtwo ul li a:hover{
+    color: #f9f6f3;
+}
+
+.header{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;height: 100vh;
+}
+.headermain h1{
+    font-size: 8rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+.headermain p{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.headersvg img{
+    width: 30px;height:30px;
+    margin-bottom: 20px;margin-left: 30px;
+    
+}
+
+
+.headersvg  {
+    padding: 10px; background-color: #ff9149;margin-left: 30%;margin-right: 30%;
+}
+#pass{
+    font-family: fantasy;
+    margin: 4%;
+}
+.headermain{
+    box-shadow:2px 10px 20px  #ff9149;
+    text-align: center;
+    
+}
+.headerimg img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px #ff9149;
+}
+
+
+
+
+@media (min-width:767px) and (max-width:1300px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .headermain h1{font-size: 6rem;
+
+    }
+    .headermain p{
+        font-size: 1.5rem;
+    }
+
+    .headerimg img{
+    width: 200px;
+    height: 200px;
+    margin-top:30%;}
+   
+}
+
+@media (max-width:767px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .headermain h1{
+        font-size: 4rem;
+    }
+    .headermain p{
+        font-size: 1rem;
+    }
+    .headersvg img{
+    width: 20px;height:20px;
+    margin-bottom: 10px;margin-left: 10px;
+    
+}
+.headerimg img{
+    width: 200px;
+    height: 200px;
+    margin-bottom:30%;
+}
+.navtwo ul li {
+    font-size: 1rem;
+    
+}
+.navmain img{
+    width: 20px;
+}
+.navmain h2{
+    font-size: 1.5rem;
+}
+.navtwo ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+.abouttwo p{
+    font-size: 1rem;
+}
+.aboutsegment h1{
+    font-size: 1.5rem;
+}
+.projectimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;gap: 20px;margin-top: 5%;
+}
+}
+
+
+ hr{width: 20%;margin-left: 40%;
+    border-top: 1px dotted black;}
